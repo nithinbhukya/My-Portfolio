@@ -1,0 +1,86 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.avatar {
+    height: 20vh;
+    width: 20vh;
+    border-radius: 60%;
+}
+
+.upper-container {
+    background-color: #08386cbc;
+    height: 30vh;
+    width: 100vw;
+    display: flex;
+    gap: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 70px;
+}
+
+.about-title {
+    color: #ffffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+
+.about-name {
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.about-description {
+    color: #ffffff;
+    font-family: 'Roboto';
+}
+
+.skills-container {
+    height: 40vh;
+    width: 200px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    color: #333333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.skills-container h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.skills-list {
+    list-style-type: circle;
+    padding: 0;
+}
+
+.skills-list li {
+    margin-bottom: 5px;
+    color: #555;
+}
+
+
+.skills-heading {
+    text-decoration: underline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.skills-head {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
